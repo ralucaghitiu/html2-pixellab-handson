@@ -4,14 +4,15 @@ body {
 
 .header-top {
   margin: 1rem;
-}
-.header-top-inner {
-  padding: 0 120px;
-}
 
-#header-controls {
-  margin-top: 15px;
-  color: red;
+  .header-top-inner {
+    padding: 12px 120px;
+
+    #header-controls {
+      margin-top: 15px;
+      color: red;
+    }
+  }
 }
 
 #header {
