@@ -1,3 +1,35 @@
+.squares {
+  width: 80%;
+  border: 1px solid black;
+  padding: 10px;
+  margin: auto;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background-color: turquoise;
+}
+
+.square-magenta {
+  @extend .square;
+
+  background-color: magenta;
+}
+
+.square-peru {
+  @extend .square;
+
+  background-color: peru;
+}
+
+.square-purple {
+  @extend .square;
+
+  background-color: purple;
+}
+
 .circles {
   width: 80%;
   border: 1px solid black;
