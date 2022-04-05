@@ -1,0 +1,49 @@
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+}
+
+.box-1 {
+  border: 2px dotted lawngreen;
+}
+
+.box-2 {
+  background-color: grey;
+}
+
+.box-3 {
+  border: 2px dotted lawngreen;
+}
+
+.box-4 {
+  background-color: grey;
+}
+
+.box-5 {
+  border: 2px dotted lawngreen;
+}
+
+.box-6 {
+  background-color: grey;
+}
+
+.box-7 {
+  border: 2px dotted lawngreen;
+}
+
+.box-8 {
+  background-color: grey;
+}
+
+.box-9 {
+  border: 2px dotted lawngreen;
+}
+
+/*# sourceMappingURL=style.css.map */

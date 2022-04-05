@@ -9,3 +9,9 @@
   height: 150px;
   border: 1px solid #000;
 }
+
+@for $i from 1 through 5 {
+  .box-#{$i} {
+    border-width: #{$i}px;
+  }
+}
