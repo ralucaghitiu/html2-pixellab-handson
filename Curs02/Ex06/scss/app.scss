@@ -11,9 +11,25 @@
 }
 
 $border-styles: dotted, solid, dashed, double, none;
+$sizes: (
+  'xs': 4px,
+  'sm': 8px,
+  'md': 16px,
+  'lg': 32px,
+);
 
 @each $style in $border-styles {
   .b-#{$style} {
     border-style: $style;
+  }
+}
+
+@each $class-name, $value in $sizes {
+  .m-#{$class-name} {
+    margin: $value;
+  }
+
+  .p-#{$class-name} {
+    padding: $value;
   }
 }

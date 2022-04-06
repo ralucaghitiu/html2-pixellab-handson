@@ -10,4 +10,16 @@
   color: gray;
 }
 
+.btn-secondary {
+  color: blue;
+}
+
+.btn-inverted-light {
+  background-color: lightgray;
+}
+
+.btn-tertiary {
+  color: green;
+}
+
 /*# sourceMappingURL=style.css.map */
