@@ -1,11 +1,11 @@
 /* can't touch this 🔨 */
 body{
-  margin: 0; 
+  margin: 0;
   padding: 0;
 }
 
 .grid-container {
-  width: 100vw; 
+  width: 100vw;
   height: 100vh;
 }
 
@@ -31,4 +31,40 @@ body{
   background-color: lightsalmon;
 }
 /* can't touch this 🔨 */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 120px 10% 1fr 400px 2fr;
+  grid-template-rows: 2fr 20% 450px 1fr;
+}
+
+.grid-item-1 {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+}
+
+.grid-item-2 {
+  grid-column-start: 2;
+  grid-column-end: span 1;
+  grid-row-start: -3;
+  grid-row-end: -1;
+}
+
+.grid-item-3 {
+  grid-column-start: 3;
+  grid-column-end: -1;
+  grid-row-start: 3;
+  grid-row-end: span 2;
+}
+
+.grid-item-4 {
+  grid-column-start: 2;
+  grid-column-end: span 3;
+  grid-row-start: 2;
+  grid-row-end: span 2;
+  opacity: 0.5;
+}
+
 
